@@ -55,7 +55,7 @@ a {
 
 @media (max-width: 479px){
 body{
-	background-image: url('mainground.png');
+	background: url('mainground.png');
 
 	font-family: 'CookieRun-Regular';
 
