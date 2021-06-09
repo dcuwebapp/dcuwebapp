@@ -1,0 +1,356 @@
+a {
+		text-decoration: none;
+		color: white;
+	}
+	.navbar {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		background-color: #993333;
+		padding: 6px 12px;
+	}
+
+	.navbar_logo{
+		font-size: 24px;
+		color: white;
+	}
+
+	.navbar_logo i {
+		color: #ff9999;
+	}
+
+	.navbar_menu {
+		display: flex;
+		list-style: none;
+		padding-left: 0;
+	}
+
+	.navbar_menu li:hover {
+		background-color: #ff9999;
+		border-radius: 4px;
+	}
+
+	.navbar_menu li {
+		padding: 8px 20px;
+	}
+
+	.navbar_icons {
+		list-style: none;
+		color: white;
+		display: flex;
+		padding-left: 0;
+	}
+
+	.navbar_icons li {
+		padding: 8px 15px;
+	}
+
+	.navbar_toogleBtn {
+		display: none;
+		position: absolute;
+		right: 32px;
+		font-size: 24px;
+		color: #ff9999;
+	}
+
+@media (min-width: 1025px){
+	body{
+	background-image: url('mainground.png');
+
+	font-family: 'CookieRun-Regular';
+
+	margin: 0;
+	padding: 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-size: 20px;
+}
+#story{
+	position: absolute;
+	top: 50%;
+	left: 33%;
+	width: 35%;
+	height: 105%;
+	animation: motion 1.5s linear 0s infinite alternate; margin-top: 0;
+}
+#pure{
+	position: absolute;
+	top: 130%;
+	left: 550px;
+	width: 45%;
+	height: 75%;
+	animation: motion 0.8s linear 0s infinite alternate; margin-top: 0;
+}
+#white{
+	position: absolute;
+	top: 70%;
+	left: 12%;
+	width: 28%;
+	height: 50%;
+	animation: motion 1.3s linear 0s infinite alternate; margin-top: 0;
+}
+#holly{
+	position: absolute;
+	top: 120%;
+	left: 11%;
+	width: 30%;
+	height: 52%;
+	animation: motion 1s linear 0s infinite alternate; margin-top: 0;
+}
+#dark{
+	position: absolute;
+	top: 120%;
+	left: 57%;
+	width: 40%;
+	height: 55%;
+	animation: motion 2.3s linear 0s infinite alternate; margin-top: 0;
+}
+#golden{
+	position: absolute;
+	top: 65%;
+	left: 58%;
+	width: 40%;
+	height: 40%;
+	animation: motion 1.8s linear 0s infinite alternate; margin-top: 0;
+}
+#logo {
+	position: absolute;
+	top: 15%;
+	left: 40%;
+	width: 20%;
+	height: 23%;
+}
+#p1 {
+	color: #0c0a08;
+	font-size: 30px;
+	position: absolute;
+	top: 40%;
+	left: 45%;
+	text-shadow: 0px 0px 10px white, 0px 0px 20px white, 0px 0px 30px white;
+}
+#p2 {
+	color: #0c0a08;
+	font-size: 30px;
+	position: absolute;
+	top: 210%;
+	left: 45%;
+	text-shadow: 0px 0px 10px white, 0px 0px 20px white, 0px 0px 30px white;
+}
+
+#list1 {
+	border-radius: 10px 0 0 0;
+}
+
+#list2 {
+	border-radius: 0 10px 0 0;
+}
+
+#list3 {
+	border-radius: 0 0 0 10px;
+}
+
+#list4 {
+	border-radius: 0 0 10px;
+}
+
+.contentli {
+	position: absolute;
+	top: 220%;
+	left: 33%;
+}
+
+.contentli li {
+	margin: 0%;
+	padding: 1%;
+	float: left;
+	background-color: #0f0a0a;
+	color: white;
+	width: 40%;
+	text-align: center;
+	box-shadow: 0px 0px 5px white;
+	list-style: none;
+}
+.contentli li:hover {
+	background-color: #433122;
+	color: black;
+}
+a:link {
+	color: white;
+	text-decoration: none;
+}
+a:visited {
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+	color: white;
+	text-decoration: none;
+}
+#stage{
+	position: absolute;
+	top: 255%;
+	left: 15%;
+	width: 30%;
+	height: 30%;
+}
+.stage1 {
+	position: absolute;
+	top: 255%;
+	left: 50%;
+	width: 35%;
+	color: white;
+}
+#today{
+	position: absolute;
+	top: 295%;
+	left: 15%;
+	width: 30%;
+	height: 30%;
+}
+.today1 {
+	position: absolute;
+	top: 295%;
+	left: 50%;
+	width: 35%;
+	color: white;
+}
+#arena{
+	position: absolute;
+	top: 335%;
+	left: 15%;
+	width: 30%;
+	height: 30%;
+}
+.arena1 {
+	position: absolute;
+	top: 335%;
+	left: 50%;
+	width: 35%;
+	color: white;
+}
+#raid {
+	position: absolute;
+	top: 375%;
+	left: 15%;
+	width: 30%;
+	height: 30%;
+}
+.raid1 {
+	position: absolute;
+	top: 375%;
+	left: 50%;
+	width: 35%;
+	color: white;
+}
+
+#tower {
+	position: absolute;
+	top: 415%;
+	left: 15%;
+	width: 30%;
+	height: 30%;
+}
+
+.tower1 {
+	position: absolute;
+	top: 415%;
+	left: 50%;
+	width: 35%;
+	color: white;
+}
+#tree {
+	position: absolute;
+	top: 455%;
+	left: 15%;
+	width: 30%;
+	height: 30%;
+}
+.tree1 {
+	position: absolute;
+	top: 455%;
+	left: 50%;
+	width: 35%;
+	color: white;
+}
+#train {
+	position: absolute;
+	top: 495%;
+	left: 15%;
+	width: 30%;
+	height: 30%;
+}
+.train1 {
+	position: absolute;
+	top: 495%;
+	left: 50%;
+	width: 35%;
+	color: white;
+}
+
+#air {
+	position: absolute;
+	top: 535%;
+	left: 15%;
+	width: 30%;
+	height: 30%;
+}
+.air1 {
+	position: absolute;
+	top: 535%;
+	left: 50%;
+	width: 35%;
+	color: white;
+}
+#trade {
+	position: absolute;
+	top: 575%;
+	left: 15%;
+	width: 30%;
+	height: 30%;
+}
+.trade1 {
+	position: absolute;
+	top: 575%;
+	left: 50%;
+	width: 35%;
+	color: white;
+}
+#lab {
+	position: absolute;
+	top: 615%;
+	left: 15%;
+	width: 30%;
+	height: 30%;
+}
+.lab1 {
+	position: absolute;
+	top: 615%;
+	left: 50%;
+	width: 35%;
+	color: white;
+}
+.footer {
+	background-color: #993333;
+	width: 100%;
+	position: absolute;
+	top: 670%;
+}
+#footer1{
+	text-align: center;
+	color: white;
+	font-size: 13px;
+}
+
+@font-face{
+    font-family: 'CookieRun-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@keyframes motion{
+	0% {margin-top: 0px;}
+	100% {margin-top: 10px;}
+}
+}

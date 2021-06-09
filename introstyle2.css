@@ -1,0 +1,350 @@
+a {
+		text-decoration: none;
+		color: white;
+	}
+	.navbar {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		background-color: #993333;
+		padding: 6px 12px;
+	}
+
+	.navbar_logo{
+		font-size: 24px;
+		color: white;
+	}
+
+	.navbar_logo i {
+		color: #ff9999;
+	}
+
+	.navbar_menu {
+		display: flex;
+		list-style: none;
+		padding-left: 0;
+	}
+
+	.navbar_menu li:hover {
+		background-color: #ff9999;
+		border-radius: 4px;
+	}
+
+	.navbar_menu li {
+		padding: 8px 20px;
+	}
+
+	.navbar_icons {
+		list-style: none;
+		color: white;
+		display: flex;
+		padding-left: 0;
+	}
+
+	.navbar_icons li {
+		padding: 8px 15px;
+	}
+
+	.navbar_toogleBtn {
+		display: none;
+		position: absolute;
+		right: 32px;
+		font-size: 24px;
+		color: #ff9999;
+	}
+
+@media (min-width: 480px) and (max-width: 1024px){
+	body{
+	background-image: url('mainground.png');
+
+	font-family: 'CookieRun-Regular';
+
+	margin: 0;
+	padding: 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-size: 15px;
+}
+#story{
+	position: absolute;
+	top: 80%;
+	left: 28%;
+	width: 45%;
+	height: 105%;
+	z-index: -1;
+	animation: motion 1.5s linear 0s infinite alternate; margin-top: 0;
+}
+#pure{
+	position: absolute;
+	top: 150%;
+	left: 45%;
+	width: 50%;
+	height: 75%;
+	animation: motion 0.8s linear 0s infinite alternate; margin-top: 0;
+}
+#white{
+	position: absolute;
+	top: 90%;
+	left: 8%;
+	width: 28%;
+	height: 50%;
+	z-index: -2;
+	animation: motion 1.3s linear 0s infinite alternate; margin-top: 0;
+}
+#holly{
+	position: absolute;
+	top: 150%;
+	left: 10%;
+	width: 30%;
+	height: 52%;
+	animation: motion 1s linear 0s infinite alternate; margin-top: 0;
+}
+#dark{
+	position: absolute;
+	top: 110%;
+	left: 60%;
+	width: 35%;
+	height: 50%;
+	animation: motion 2.3s linear 0s infinite alternate; margin-top: 0;
+}
+#golden{
+	position: absolute;
+	top: 70%;
+	left: 55%;
+	width: 40%;
+	height: 40%;
+	animation: motion 1.8s linear 0s infinite alternate; margin-top: 0;
+}
+#logo {
+	position: absolute;
+	top: 20%;
+	left: 35%;
+	width: 30%;
+	height: 25%;
+}
+#p1 {
+	color: #0c0a08;
+	font-size: 20px;
+	position: absolute;
+	top: 65%;
+	left: 44%;
+	text-shadow: 0px 0px 10px white, 0px 0px 20px white, 0px 0px 30px white;
+}
+#p2 {
+	color: #0c0a08;
+	font-size: 20px;
+	position: absolute;
+	top: 250%;
+	left: 44%;
+	text-shadow: 0px 0px 10px white, 0px 0px 20px white, 0px 0px 30px white;
+}
+
+.contentli {
+	position: absolute;
+	top: 260%;
+	left: 26%;
+}
+
+.contentli li {
+	margin: 0%;
+	padding: 1%;
+	float: left;
+	width: 40%;
+	height: 10%;
+	background-color: #0f0a0a;
+	color: white;
+	text-align: center;
+	box-shadow: 0px 0px 5px white;
+	list-style: none;
+	text-size: 20px
+}
+	
+.contentli li:hover {
+	background-color: #433122;
+	color: black;
+}
+a:link {
+	color: white;
+	text-decoration: none;
+}
+a:visited {
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+	color: white;
+	text-decoration: none;
+}
+#stage{
+	position: absolute;
+	top: 300%;
+	left: 10%;
+	width: 43%;
+	height: 33%;
+}
+.stage1 {
+	position: absolute;
+	top: 300%;
+	left: 55%;
+	width: 35%;
+	color: white;
+}
+#today{
+	position: absolute;
+	top: 350%;
+	left: 10%;
+	width: 43%;
+	height: 33%;
+}
+.today1 {
+	position: absolute;
+	top: 350%;
+	left: 55%;
+	width: 35%;
+	color: white;
+}
+#arena{
+	position: absolute;
+	top: 400%;
+	left: 10%;
+	width: 43%;
+	height: 33%;
+}
+.arena1 {
+	position: absolute;
+	top: 400%;
+	left: 55%;
+	width: 35%;
+	color: white;
+}
+#raid {
+	position: absolute;
+	top: 450%;
+	left: 10%;
+	width: 43%;
+	height: 33%;
+}
+.raid1 {
+	position: absolute;
+	top: 450%;
+	left: 55%;
+	width: 35%;
+	color: white;
+}
+
+#tower {
+	position: absolute;
+	top: 500%;
+	left: 10%;
+	width: 43%;
+	height: 33%;
+}
+
+.tower1 {
+	position: absolute;
+	top: 500%;
+	left: 55%;
+	width: 35%;
+	color: white;
+}
+#tree {
+	position: absolute;
+	top: 550%;
+	left: 10%;
+	width: 43%;
+	height: 33%;
+}
+.tree1 {
+	position: absolute;
+	top: 550%;
+	left: 55%;
+	width: 35%;
+	color: white;
+}
+#train {
+	position: absolute;
+	top: 600%;
+	left: 10%;
+	width: 43%;
+	height: 33%;
+}
+.train1 {
+	position: absolute;
+	top: 600%;
+	left: 55%;
+	width: 35%;
+	color: white;
+}
+
+#air {
+	position: absolute;
+	top: 650%;
+	left: 10%;
+	width: 43%;
+	height: 33%;
+}
+.air1 {
+	position: absolute;
+	top: 650%;
+	left: 55%;
+	width: 35%;
+	color: white;
+}
+#trade {
+	position: absolute;
+	top: 700%;
+	left: 10%;
+	width: 43%;
+	height: 33%;
+}
+
+.trade1 h1{
+	font-size: 25px;
+}
+	
+.trade1 {
+	position: absolute;
+	top: 700%;
+	left: 55%;
+	width: 35%;
+	color: white;
+}
+#lab {
+	position: absolute;
+	top: 750%;
+	left: 10%;
+	width: 43%;
+	height: 33%;
+}
+.lab1 {
+	position: absolute;
+	top: 750%;
+	left: 55%;
+	width: 35%;
+	color: white;
+}
+.footer {
+	background-color: #993333;
+	width: 100%;
+	position: absolute;
+	top: 800%;
+}
+#footer1{
+	text-align: center;
+	color: white;
+	font-size: 13px;
+}
+
+@font-face{
+    font-family: 'CookieRun-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@keyframes motion{
+	0% {margin-top: 0px;}
+	100% {margin-top: 10px;}
+}
+}

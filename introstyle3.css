@@ -1,0 +1,402 @@
+a {
+		text-decoration: none;
+		color: white;
+	}
+	.navbar {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		background-color: #993333;
+		padding: 6px 12px;
+	}
+
+	.navbar_logo{
+		font-size: 24px;
+		color: white;
+	}
+
+	.navbar_logo i {
+		color: #ff9999;
+	}
+
+	.navbar_menu {
+		display: flex;
+		list-style: none;
+		padding-left: 0;
+	}
+
+	.navbar_menu li:hover {
+		background-color: #ff9999;
+		border-radius: 4px;
+	}
+
+	.navbar_menu li {
+		padding: 8px 20px;
+	}
+
+	.navbar_icons {
+		list-style: none;
+		color: white;
+		display: flex;
+		padding-left: 0;
+	}
+
+	.navbar_icons li {
+		padding: 8px 15px;
+	}
+
+	.navbar_toogleBtn {
+		display: none;
+		position: absolute;
+		right: 32px;
+		font-size: 24px;
+		color: #ff9999;
+	}
+
+@media (max-width: 479px){
+body{
+	background-image: url('mainground.png');
+
+	font-family: 'CookieRun-Regular';
+
+	margin: 0;
+	padding: 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-size: 15px;
+}
+#story{
+	position: absolute;
+	z-index: -1;
+	top: 45%;
+	left: 15%;
+	width: 70%;
+	height: 70%;
+	animation: motion 1.5s linear 0s infinite alternate; margin-top: 0;
+}
+#pure{
+	position: absolute;
+	top: 100%;
+	left: 45%;
+	width: 50%;
+	height: 30%;
+	animation: motion 0.8s linear 0s infinite alternate; margin-top: 0;
+}
+#white{
+	position: absolute;
+	top: 55%;
+	left: 2%;
+	width: 35%;
+	height: 25%;
+	animation: motion 1.3s linear 0s infinite alternate; margin-top: 0;
+}
+#holly{
+	position: absolute;
+	top: 95%;
+	left: 3%;
+	width: 35%;
+	height: 25%;
+	animation: motion 1s linear 0s infinite alternate; margin-top: 0;
+}
+#dark{
+	position: absolute;
+	top: 70%;
+	left: 65%;
+	width: 32%;
+	height: 17%;
+	animation: motion 2.3s linear 0s infinite alternate; margin-top: 0;
+}
+#golden{
+	position: absolute;
+	top: 35%;
+	left: 45%;
+	width: 50%;
+	height: 25%;
+	animation: motion 1.8s linear 0s infinite alternate; margin-top: 0;
+}
+#logo {
+	position: absolute;
+	top: 10%;
+	left: 29%;
+	width: 40%;
+	height: 15%;
+}
+#p1 {
+	color: #0c0a08;
+	position: absolute;
+	top: 30%;
+	left: 37%;
+	text-shadow: 0px 0px 10px white, 0px 0px 20px white, 0px 0px 30px white;
+}
+#p2 {
+	color: #0c0a08;
+	font-size: 20px;
+	position: absolute;
+	top: 155%;
+	left: 33%;
+	text-shadow: 0px 0px 10px white, 0px 0px 20px white, 0px 0px 30px white;
+}
+
+.contentli {
+	position: absolute;
+	top: 165%;
+	left: 19%;
+}
+
+.contentli li {
+	margin: 0%;
+	padding: 1%;
+	float: left;
+	width: 50%;
+	height: 10%;
+	background-color: #0f0a0a;
+	color: white;
+	text-align: center;
+	box-shadow: 0px 0px 5px white;
+	list-style: none;
+}
+	
+.contentli li:hover {
+	background-color: #433122;
+	color: black;
+}
+a:link {
+	color: white;
+	text-decoration: none;
+}
+a:visited {
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+	color: white;
+	text-decoration: none;
+}
+	
+	
+#stage{
+	position: absolute;
+	top: 225%;
+	left: 14%;
+	width: 70%;
+	height: 20%;
+}
+.stage1 {
+	position: absolute;
+	top: 243%;
+	left: 14%;
+	width: 70%;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+}
+#today{
+	position: absolute;
+	top: 278%;
+	left: 14%;
+	width: 70%;
+	height: 20%;
+}
+.today1 {
+	position: absolute;
+	top: 296%;
+	left: 14%;
+	width: 70%;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+}
+#arena{
+	position: absolute;
+	top: 335%;
+	left: 14%;
+	width: 70%;
+	height: 20%;
+}
+.arena1 {
+	position: absolute;
+	top: 353%;
+	left: 14%;
+	width: 70%;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+}
+#raid {
+	position: absolute;
+	top: 395%;
+	left: 14%;
+	width: 70%;
+	height: 20%;
+}
+.raid1 {
+	position: absolute;
+	top: 413%;
+	left: 14%;
+	width: 70%;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+}
+
+#tower {
+	position: absolute;
+	top: 450%;
+	left: 14%;
+	width: 70%;
+	height: 20%;
+}
+
+.tower1 {
+	position: absolute;
+	top: 468%;
+	left: 14%;
+	width: 70%;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+}
+#tree {
+	position: absolute;
+	top: 509%;
+	left: 14%;
+	width: 70%;
+	height: 20%;
+}
+.tree1 {
+	position: absolute;
+	top: 527%;
+	left: 14%;
+	width: 70%;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+}
+#train {
+	position: absolute;
+	top: 562%;
+	left: 14%;
+	width: 70%;
+	height: 20%;
+}
+.train1 {
+	position: absolute;
+	top: 580%;
+	left: 14%;
+	width: 70%;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+}
+
+#air {
+	position: absolute;
+	top: 612%;
+	left: 14%;
+	width: 70%;
+	height: 20%;
+}
+.air1 {
+	position: absolute;
+	top: 630%;
+	left: 14%;
+	width: 70%;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+}
+#trade {
+	position: absolute;
+	top: 668%;
+	left: 14%;
+	width: 70%;
+	height: 20%;
+}
+.trade1 {
+	position: absolute;
+	top: 686%;
+	left: 14%;
+	width: 70%;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+}
+
+.trade1 h1{
+	font-size: 20px;
+}
+	
+#lab {
+	position: absolute;
+	top: 717%;
+	left: 14%;
+	width: 70%;
+	height: 20%;
+}
+.lab1 {
+	position: absolute;
+	top: 735%;
+	left: 14%;
+	width: 70%;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+}
+.footer {
+	background-color: #993333;
+	width: 100%;
+	position: absolute;
+	top: 780%;
+}
+#footer1{
+	text-align: center;
+	color: white;
+	font-size: 13px;
+}
+
+@font-face{
+    font-family: 'CookieRun-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@keyframes motion{
+	0% {margin-top: 0px;}
+	100% {margin-top: 10px;}
+}
+.navbar {
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 8px 24x;
+}
+
+.navbar_menu {
+	display: none;
+	flex-direction:  column;
+	align-items: center;
+	width: 100%;
+	padding: 30px 30x;
+}
+
+.navbar_menu li {
+	width: 100%;
+	text-align: center;
+	height: 100%;
+	padding: 30px 30x;
+}
+
+.navbar_icons {
+	display: none;
+	justify-content: center;
+	width: 100%;
+}
+.navbar_toogleBtn {
+	display: block;
+}
+.navbar_menu.active,
+.navbar_icons.active {
+display: flex;
+}
+}
