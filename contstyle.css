@@ -28,6 +28,7 @@ a {
 .navbar_menu li:hover {
 	background-color: #ff9999;
 	border-radius: 4px;
+	transition: all ease 0.3s;
 }
 
 .navbar_menu li {
