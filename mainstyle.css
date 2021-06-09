@@ -255,13 +255,13 @@ a {
 	}
 
 	.navbar_icons {
-		display: none;
+		display: block;
 		justify-content: center;
 		width: 100%;
 	}
 
 	.navbar_toogleBtn {
-		display: flex;
+		display: block;
 	}
 
 	.navbar_menu.active,
