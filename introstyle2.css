@@ -121,6 +121,7 @@ a {
 	left: 35%;
 	width: 30%;
 	height: 25%;
+	z-index: -1;
 }
 #p1 {
 	color: #0c0a08;

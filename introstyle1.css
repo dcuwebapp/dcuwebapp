@@ -119,6 +119,7 @@ a {
 	left: 40%;
 	width: 20%;
 	height: 23%;
+	z-index: -1;
 }
 #p1 {
 	color: #0c0a08;

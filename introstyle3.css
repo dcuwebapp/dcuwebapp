@@ -120,6 +120,7 @@ body{
 	left: 29%;
 	width: 40%;
 	height: 15%;
+	z-index: -1;
 }
 #p1 {
 	color: #0c0a08;
