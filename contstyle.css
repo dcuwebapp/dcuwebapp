@@ -251,42 +251,42 @@ a {
 
 	#youtube1 {
 		position: absolute;
-		top: 80%;
+		top: 85%;
 		left: 2%;
 		width: 30%;
 		height: 25%;
 	}
 	#youtube2 {
 		position: absolute;
-		top: 80%;
+		top: 85%;
 		left: 35%;
 		width: 30%;
 		height: 25%;
 	}
 	#youtube3 {
 		position: absolute;
-		top: 80%;
+		top: 85%;
 		left: 68%;
 		width: 30%;
 		height: 25%;
 	}
 	#youtube4 {
 		position: absolute;
-		top: 50%;
+		top: 55%;
 		left: 2%;
 		width: 30%;
 		height: 25%;
 	}
 	#youtube5 {
 		position: absolute;
-		top: 50%;
+		top: 55%;
 		left: 35%;
 		width: 30%;
 		height: 25%;
 	}
 	#youtube6 {
 		position: absolute;
-		top: 50%;
+		top: 55%;
 		left: 68%;
 		width: 30%;
 		height: 25%;
@@ -325,7 +325,7 @@ a {
 		text-align: center;
 		height: 100%;
 		padding: 30px 30x;
-		font-size: 20px;
+		font-size: 24px;
 	}
 
 	.navbar_icons {
@@ -333,7 +333,7 @@ a {
 		justify-content: center;
 		width: 100%;
 		
-		font-size: 20px;
+		font-size: 24px;
 	}
 
 	.navbar_toogleBtn {
