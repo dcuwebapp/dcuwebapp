@@ -28,7 +28,6 @@ a {
 .navbar_menu li:hover {
 	background-color: #ff9999;
 	border-radius: 4px;
-	transition: all ease 0.3s;
 }
 
 .navbar_menu li {
@@ -53,9 +52,17 @@ a {
 	color: #ff9999;
 }
 
+@font-face {
+    font-family: 'CookieRun-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 @media screen and (min-width: 1025px){
 	body{
-		background: url('mainground.png');
+		background-color: #b17474;
 
 		font-family: 'CookieRun-Regular';
 		font-size: 20px;
@@ -66,36 +73,56 @@ a {
 	    background-attachment: fixed;
 	    background-size: cover;
 	}
-	#cloud1 {
-	    position: absolute;
-	    bottom: 0%;
-	    width: 100%;
-	    height: 40%;
-	}
-	#cloud2 {
-	    position: absolute;
-	    bottom: 0%;
-	    width: 100%;
-	    height: 40%;
-	}
-	#cookies{
-	    position: absolute;
-	    bottom: 7%;
-	    left: 25%;
-	    width: 50%;
-	    height: 40%;
 
-	    margin: 0 auto;
-	    animation: motion 1s linear 0s infinite alternate; margin-bottom: 0;
+	.png {
+		position: absolute;
+		top: 78%;
+		left: 45%;
 	}
-	#logo {
-	    position: absolute;
-	    top: 15%;
-	    left: 37%;
-	    width: 25%;
-	    height: 30%;
-	    z-index: -5;
+
+	#youtube1 {
+		position: absolute;
+		top: 15%;
+		left: 2%;
+		width: 30%;
+		height: 25%;
 	}
+	#youtube2 {
+		position: absolute;
+		top: 15%;
+		left: 35%;
+		width: 30%;
+		height: 25%;
+	}
+	#youtube3 {
+		position: absolute;
+		top: 15%;
+		left: 68%;
+		width: 30%;
+		height: 25%;
+	}
+	#youtube4 {
+		position: absolute;
+		top: 45%;
+		left: 2%;
+		width: 30%;
+		height: 25%;
+	}
+	#youtube5 {
+		position: absolute;
+		top: 45%;
+		left: 35%;
+		width: 30%;
+		height: 25%;
+	}
+	#youtube6 {
+		position: absolute;
+		top: 45%;
+		left: 68%;
+		width: 30%;
+		height: 25%;
+	}
+
 	.footer {
 		background-color: #993333;
 		width: 100%;
@@ -106,20 +133,15 @@ a {
 		text-align: center;
 		color: white;
 		font-size: 10px;
-	}
-
-	@keyframes motion{
-	        0% {margin-bottom: 0px;}
-	        100% {margin-bottom: 10px;}
 	}
 }
 
 @media screen and (min-width: 480px) and (max-width: 1024px){
 	body{
-		background: url('mainground.png');
+		background-color: #b17474;
 
 		font-family: 'CookieRun-Regular';
-		font-size: 17px;
+		font-size: 20px;
 
 		margin: 0rem;
 	    padding: 0rem;
@@ -127,37 +149,56 @@ a {
 	    background-attachment: fixed;
 	    background-size: cover;
 	}
-	#cloud1 {
-	    position: absolute;
-	    bottom: 0%;
-	    width: 100%;
-	    height: 30%;
-	}
-	#cloud2 {
-	    position: absolute;
-	    bottom: 0%;
-	    width: 100%;
-	    height: 30%;
-	}
-	#cookies{
-	    position: absolute;
-	    bottom: 5%;
-	    left: 17%;
-	    width: 70%;
-	    height: 40%;
 
-	    margin: 0 auto;
-	    animation: motion 1s linear 0s infinite alternate; margin-bottom: 0;
+	.png {
+		position: absolute;
+		top: 78%;
+		left: 45%;
 	}
-	#logo {
-	    position: absolute;
-	    top: 15%;
-	    left: 27%;
-	    width: 45%;
-	    height: 35%;
-	    z-index: -5;
+
+	#youtube1 {
+		position: absolute;
+		top: 15%;
+		left: 2%;
+		width: 30%;
+		height: 25%;
 	}
-	
+	#youtube2 {
+		position: absolute;
+		top: 15%;
+		left: 35%;
+		width: 30%;
+		height: 25%;
+	}
+	#youtube3 {
+		position: absolute;
+		top: 15%;
+		left: 68%;
+		width: 30%;
+		height: 25%;
+	}
+	#youtube4 {
+		position: absolute;
+		top: 45%;
+		left: 2%;
+		width: 30%;
+		height: 25%;
+	}
+	#youtube5 {
+		position: absolute;
+		top: 45%;
+		left: 35%;
+		width: 30%;
+		height: 25%;
+	}
+	#youtube6 {
+		position: absolute;
+		top: 45%;
+		left: 68%;
+		width: 30%;
+		height: 25%;
+	}
+
 	.footer {
 		background-color: #993333;
 		width: 100%;
@@ -168,20 +209,15 @@ a {
 		text-align: center;
 		color: white;
 		font-size: 10px;
-	}
-
-	@keyframes motion{
-	    0% {margin-bottom: 0px;}s
-	    100% {margin-bottom: 10px;}
 	}
 }
 
 @media screen and (max-width: 479px) {
 	body{
-		background: url('mainground.png');
+		background-color: #b17474;
 
 		font-family: 'CookieRun-Regular';
-		font-size: 24px;
+		font-size: 20px;
 
 		margin: 0rem;
 	    padding: 0rem;
@@ -189,36 +225,56 @@ a {
 	    background-attachment: fixed;
 	    background-size: cover;
 	}
-	#cloud1 {
-	    position: absolute;
-	    bottom: 0%;
-	    width: 100%;
-	    height: 30%;
-	}
-	#cloud2 {
-	    position: absolute;
-	    bottom: 0%;
-	    width: 100%;
-	    height: 30%;
-	}
-	#cookies{
-	    position: absolute;
-	    bottom: 10%;
-	    left: 5%;
-	    width: 90%;
-	    height: 30%;
 
-	    margin: 0 auto;
-	    animation: motion 1s linear 0s infinite alternate; margin-bottom: 0;
+	.png {
+		position: absolute;
+		top: 75%;
+		left: 31%;
 	}
-	#logo {
-	    position: absolute;
-	    top: 10%;
-	    left: 23%;
-	    width: 55%;
-	    height: 30%;
-	    z-index: -5;
+
+	#youtube1 {
+		position: absolute;
+		top: 15%;
+		left: 2%;
+		width: 30%;
+		height: 25%;
 	}
+	#youtube2 {
+		position: absolute;
+		top: 15%;
+		left: 35%;
+		width: 30%;
+		height: 25%;
+	}
+	#youtube3 {
+		position: absolute;
+		top: 15%;
+		left: 68%;
+		width: 30%;
+		height: 25%;
+	}
+	#youtube4 {
+		position: absolute;
+		top: 45%;
+		left: 2%;
+		width: 30%;
+		height: 25%;
+	}
+	#youtube5 {
+		position: absolute;
+		top: 45%;
+		left: 35%;
+		width: 30%;
+		height: 25%;
+	}
+	#youtube6 {
+		position: absolute;
+		top: 45%;
+		left: 68%;
+		width: 30%;
+		height: 25%;
+	}
+
 	.footer {
 		background-color: #993333;
 		width: 100%;
@@ -231,10 +287,7 @@ a {
 		font-size: 10px;
 	}
 
-	@keyframes motion{
-	        0% {margin-bottom: 0px;}
-	        100% {margin-bottom: 10px;}
-	}
+
 
 .navbar {
 		flex-direction: column;
@@ -273,9 +326,3 @@ a {
 	}
 }
 
-@font-face {
-    font-family: 'CookieRun-Regular';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
