@@ -74,6 +74,10 @@ a {
 	    background-size: cover;
 	}
 
+	p {
+		display: none;
+	}
+
 	.png {
 		position: absolute;
 		top: 78%;
@@ -86,7 +90,6 @@ a {
 		left: 2%;
 		width: 30%;
 		height: 25%;
-		z-index: -5;
 	}
 	#youtube2 {
 		position: absolute;
@@ -94,7 +97,6 @@ a {
 		left: 35%;
 		width: 30%;
 		height: 25%;
-		z-index: -5;
 	}
 	#youtube3 {
 		position: absolute;
@@ -102,7 +104,6 @@ a {
 		left: 68%;
 		width: 30%;
 		height: 25%;
-		z-index: -5;
 	}
 	#youtube4 {
 		position: absolute;
@@ -110,7 +111,6 @@ a {
 		left: 2%;
 		width: 30%;
 		height: 25%;
-		z-index: -5;
 	}
 	#youtube5 {
 		position: absolute;
@@ -118,7 +118,6 @@ a {
 		left: 35%;
 		width: 30%;
 		height: 25%;
-		z-index: -5;
 	}
 	#youtube6 {
 		position: absolute;
@@ -126,7 +125,6 @@ a {
 		left: 68%;
 		width: 30%;
 		height: 25%;
-		z-index: -5;
 	}
 
 	.footer {
@@ -160,6 +158,10 @@ a {
 		position: absolute;
 		top: 78%;
 		left: 45%;
+	}
+
+	p {
+		display: none;
 	}
 
 	#youtube1 {
@@ -232,29 +234,38 @@ a {
 	    background-size: cover;
 	}
 
+	p {
+		color: white;
+		font-size: 30px;
+		position: absolute;
+		top: 15%;
+		left: 20%;
+		z-index: -5;
+	}
 	.png {
 		position: absolute;
-		top: 75%;
+		top: 33%;
 		left: 31%;
+		z-index: -5;
 	}
 
 	#youtube1 {
 		position: absolute;
-		top: 15%;
+		top: 75%;
 		left: 2%;
 		width: 30%;
 		height: 25%;
 	}
 	#youtube2 {
 		position: absolute;
-		top: 15%;
+		top: 75%;
 		left: 35%;
 		width: 30%;
 		height: 25%;
 	}
 	#youtube3 {
 		position: absolute;
-		top: 15%;
+		top: 75%;
 		left: 68%;
 		width: 30%;
 		height: 25%;
@@ -285,7 +296,7 @@ a {
 		background-color: #993333;
 		width: 100%;
 		position: absolute;
-		bottom: 0%;
+		top: 110%;
 	}
 	#footer1{
 		text-align: center;
@@ -299,6 +310,7 @@ a {
 		flex-direction: column;
 		align-items: flex-start;
 		padding: 8px 24x;
+		z-index: 10;
 	}
 
 	.navbar_menu {

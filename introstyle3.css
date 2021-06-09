@@ -51,6 +51,7 @@ a {
 	position: absolute;
 	right: 32px;
 	color: #ff9999;
+	font-size: 20px
 }
 
 @media (max-width: 479px){
@@ -179,14 +180,14 @@ a:hover {
 	
 #stage{
 	position: absolute;
-	top: 225%;
+	top: 234%;
 	left: 14%;
 	width: 70%;
 	height: 20%;
 }
 .stage1 {
 	position: absolute;
-	top: 243%;
+	top: 252%;
 	left: 14%;
 	width: 70%;
 	color: white;
@@ -195,14 +196,14 @@ a:hover {
 }
 #today{
 	position: absolute;
-	top: 278%;
+	top: 293%;
 	left: 14%;
 	width: 70%;
 	height: 20%;
 }
 .today1 {
 	position: absolute;
-	top: 296%;
+	top: 311%;
 	left: 14%;
 	width: 70%;
 	color: white;
@@ -211,14 +212,14 @@ a:hover {
 }
 #arena{
 	position: absolute;
-	top: 335%;
+	top: 358%;
 	left: 14%;
 	width: 70%;
 	height: 20%;
 }
 .arena1 {
 	position: absolute;
-	top: 353%;
+	top: 376%;
 	left: 14%;
 	width: 70%;
 	color: white;
@@ -227,14 +228,14 @@ a:hover {
 }
 #raid {
 	position: absolute;
-	top: 395%;
+	top: 425%;
 	left: 14%;
 	width: 70%;
 	height: 20%;
 }
 .raid1 {
 	position: absolute;
-	top: 413%;
+	top: 443%;
 	left: 14%;
 	width: 70%;
 	color: white;
@@ -244,7 +245,7 @@ a:hover {
 
 #tower {
 	position: absolute;
-	top: 450%;
+	top: 485%;
 	left: 14%;
 	width: 70%;
 	height: 20%;
@@ -252,7 +253,7 @@ a:hover {
 
 .tower1 {
 	position: absolute;
-	top: 468%;
+	top: 503%;
 	left: 14%;
 	width: 70%;
 	color: white;
@@ -261,14 +262,14 @@ a:hover {
 }
 #tree {
 	position: absolute;
-	top: 509%;
+	top: 548%;
 	left: 14%;
 	width: 70%;
 	height: 20%;
 }
 .tree1 {
 	position: absolute;
-	top: 527%;
+	top: 566%;
 	left: 14%;
 	width: 70%;
 	color: white;
@@ -277,14 +278,14 @@ a:hover {
 }
 #train {
 	position: absolute;
-	top: 562%;
+	top: 605%;
 	left: 14%;
 	width: 70%;
 	height: 20%;
 }
 .train1 {
 	position: absolute;
-	top: 580%;
+	top: 623%;
 	left: 14%;
 	width: 70%;
 	color: white;
@@ -294,14 +295,14 @@ a:hover {
 
 #air {
 	position: absolute;
-	top: 612%;
+	top: 660%;
 	left: 14%;
 	width: 70%;
 	height: 20%;
 }
 .air1 {
 	position: absolute;
-	top: 630%;
+	top: 678%;
 	left: 14%;
 	width: 70%;
 	color: white;
@@ -310,14 +311,14 @@ a:hover {
 }
 #trade {
 	position: absolute;
-	top: 668%;
+	top: 720%;
 	left: 14%;
 	width: 70%;
 	height: 20%;
 }
 .trade1 {
 	position: absolute;
-	top: 686%;
+	top: 738%;
 	left: 14%;
 	width: 70%;
 	color: white;
@@ -331,14 +332,14 @@ a:hover {
 	
 #lab {
 	position: absolute;
-	top: 717%;
+	top: 775%;
 	left: 14%;
 	width: 70%;
 	height: 20%;
 }
 .lab1 {
 	position: absolute;
-	top: 735%;
+	top: 793%;
 	left: 14%;
 	width: 70%;
 	color: white;
@@ -349,7 +350,7 @@ a:hover {
 	background-color: #993333;
 	width: 100%;
 	position: absolute;
-	top: 780%;
+	top: 850%;
 }
 #footer1{
 	text-align: center;
