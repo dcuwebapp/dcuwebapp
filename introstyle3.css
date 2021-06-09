@@ -68,7 +68,7 @@ body{
 }
 #story{
 	position: absolute;
-	z-index: -1;
+	z-index: -6;
 	top: 45%;
 	left: 15%;
 	width: 70%;
@@ -113,6 +113,7 @@ body{
 	left: 45%;
 	width: 50%;
 	height: 25%;
+	z-index: -5;
 	animation: motion 1.8s linear 0s infinite alternate; margin-top: 0;
 }
 #logo {
@@ -128,6 +129,7 @@ body{
 	position: absolute;
 	top: 30%;
 	left: 37%;
+	z-index: -5;
 	text-shadow: 0px 0px 10px white, 0px 0px 20px white, 0px 0px 30px white;
 }
 #p2 {
@@ -147,9 +149,8 @@ body{
 
 .contentli li {
 	margin: 0%;
-	padding: 1%;
-	float: left;
-	width: 50%;
+	padding: 2%;
+	width: 80%;
 	height: 10%;
 	background-color: #0f0a0a;
 	color: white;

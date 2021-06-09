@@ -65,6 +65,17 @@ a {
 	color: #ff9999;
 }
 
+.footer {
+		background-color: #993333;
+		width: 100%;
+		position: absolute;
+		top: 200%;
+	}
+	#footer1{
+		text-align: center;
+		color: white;
+		font-size: 10px;
+	}
 
 @media screen and (max-width: 768px) {
 	.navbar {
